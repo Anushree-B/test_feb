@@ -75,6 +75,7 @@ if 'no_positions' not in st.session_state:
     st.session_state.no_positions = []
 if 'no_count' not in st.session_state:
     st.session_state.no_count = 0
+st.session_state.no_count = 0
 
 def get_new_position():
     # Generate a list of predefined positions for the "No" button
