@@ -106,6 +106,12 @@ if st.session_state.stage == 0:
 
 elif st.session_state.stage == 1:
     st.markdown('<p class="message">Will you be mine forever? 💍</p>', unsafe_allow_html=True)
+
+    st.markdown('<ul class="message">', unsafe_allow_html=True)
+    st.markdown('<li>You get unlimited hugs and cuddles! 🤗</li>', unsafe_allow_html=True)
+    st.markdown('<li>You get to feed me endless snacks, and I’ll be your happy little foodie! 🍔🍟😋</li>', unsafe_allow_html=True)
+    st.markdown('<li>A lifetime of love, laughter, and adventures together! 🌍💖</li>', unsafe_allow_html=True)
+    st.markdown('</ul>', unsafe_allow_html=True)
     
     # Create centered columns for buttons
     col1, col2, col3 = st.columns([1, 1, 1])
