@@ -78,7 +78,8 @@ if 'no_count' not in st.session_state:
 st.session_state.no_count = 0
 
 def get_new_position():
-    # Generate a list of predefined positions for the "No" button
+    if st.session_state.no_count == 0:
+        return "No"
     positions = [
         "Maybe think again? 🤔",
         "Are you sure? 🥺",
