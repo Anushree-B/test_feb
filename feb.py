@@ -78,7 +78,7 @@ if 'no_count' not in st.session_state:
 
 def get_new_position():
     if st.session_state.no_count == 0:
-        return "No"
+        return "No 🤨"
     positions = [
         "Maybe think again? 🤔",
         "Are you sure? 🥺",
@@ -106,7 +106,7 @@ if st.session_state.stage == 0:
 
 elif st.session_state.stage == 1:
     st.markdown('<p class="message">Will you be mine forever? 💍</p>', unsafe_allow_html=True)
-
+    
     # Create centered columns for buttons
     col1, col2, col3 = st.columns([1, 1, 1])
 
