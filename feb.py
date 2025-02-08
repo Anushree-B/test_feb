@@ -91,7 +91,7 @@ def get_new_position():
 
 # Content
 st.markdown('<div class="main">', unsafe_allow_html=True)
-st.markdown('<h1 class="title">Hey Love... 💕</h1>', unsafe_allow_html=True)
+st.markdown('<h1 class="title">Hi there Siddhu... 💕</h1>', unsafe_allow_html=True)
 
 if st.session_state.stage == 0:
     st.markdown('<p class="message">I have something special to ask you... 💌</p>', unsafe_allow_html=True)
@@ -129,7 +129,7 @@ elif st.session_state.stage == 2:
     # Center the celebration emoji
     st.markdown("""
         <div style='text-align: center; font-size: 3rem; margin: 2rem;'>
-            💑 💕 💍 🎉 🎊 💝
+            💕 💍 🎉 🎊 💝
         </div>
         <p class="message">I love you forever! ❤️</p>
     """, unsafe_allow_html=True)
